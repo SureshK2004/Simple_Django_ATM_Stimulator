@@ -8,12 +8,12 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
       <div className="container">
-        {/* Brand */}
+        
         <Link className="navbar-brand fw-bold text-white" to="/">
            Mini ATM
         </Link>
 
-        {/* Right Side */}
+      
         <div className="d-flex align-items-center">
           {user ? (
             <>
